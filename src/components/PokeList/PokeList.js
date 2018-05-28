@@ -1,8 +1,8 @@
 import React from 'react';
-import './PokeList.css';
-
-import PokeCell from '../PokeCell';
 import { pokeClasses } from '../../pokeClasses';
+import PokeCell from '../PokeCell';
+
+import './PokeList.css';
 
 const PokeList = () => {
     const cells = pokeClasses.map(pokeClass => {
