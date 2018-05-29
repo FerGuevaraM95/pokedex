@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from '../../assets/pokemon.png';
 import Pokemon from '../../Pokemon';
 import PokeList from '../PokeList';
 import DetailView from '../DetailView';
@@ -29,8 +30,11 @@ class App extends Component {
     render() {
         return (
         <div className="App">
-            <PokeList handleOnClick={this.handleOnClick} />
-            <DetailView pokemon={this.state.pokemon} />
+            <img src={logo} className="App-logo" alt="pokémon" />
+            <div className="Dex">
+                <PokeList handleOnClick={this.handleOnClick} />
+                <DetailView pokemon={this.state.pokemon} />
+            </div>
         </div>
         );
     }

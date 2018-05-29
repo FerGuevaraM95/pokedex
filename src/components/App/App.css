@@ -1,11 +1,17 @@
-.App {
+.App-logo {
+    width: 320px;
+    display: flex;
+    margin: 25px auto 0;
+}
+
+.Dex {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 650px;
     height: 400px;
     padding-left: 10px;
-    margin: 50px auto;
+    margin: 25px auto;
     background-color: #e10031;
     border-radius: 10px;
     box-shadow: 0 14px 45px rgba(0, 0, 0, 0.22), 0 18px 45px rgba(0, 0, 0, 0.22);
